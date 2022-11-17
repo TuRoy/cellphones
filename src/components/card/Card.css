@@ -1,0 +1,201 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: "SegoeUI", sans-serif;
+  }
+  
+  /* CART__CSS 
+  *********************************************************************************
+  *********************************************************************************
+   */
+  
+  
+  .Cart__content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fff;
+  }
+  .Cart__content__lists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .Cart__content__list {
+    display: flex;
+    align-items: center;
+    width: 570px;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+  .Cart__content__list__img {
+    margin-bottom: 40px;
+    width: 33%;
+  }
+  .Cart__content__list__img img {
+    width: 100%;
+  }
+  .Cart__content__list__detail {
+    width: 77%;
+  }
+  .Cart__content__list__seller__ {
+    list-style-type: disc;
+    color: #d70018;
+  }
+  .Cart__content__list__seller {
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+  }
+  .Cart__content__list__seller__ p , .Cart__content__list__seller__title {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin: 0;
+  }
+  .Cart__content__list__detail h3{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .Cart__content__list__price{
+    font-size: 15px;
+    color: #d70018;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  .block__seller__cart {
+    width: 326px;
+  }
+  .block__seller__carts {
+    padding-left: 10px;
+    margin: 0;
+  }
+  .Cart__content__list__seller__title{
+    margin: 0;
+  }
+  .Cart__content__lists__back h3{
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #d70018;
+    text-align: center;
+  }
+  .Cart__content__lists__back{
+    width: 100%;
+    margin: 18px 0px;
+  }
+  .backs{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    cursor: pointer;
+  }
+  .backs p{
+    margin: 0;
+    font-size: 18px;
+    color: #d70018;
+  }
+  .backs:hover{
+    transform: translateY(-3px);
+    transition: all linear 0.3s;
+  }
+  .Cart__content__list__choose{
+    margin-bottom: 10px;
+  }
+  .Cart__content__list__choose__btns{
+    margin-left: 3px;
+    width: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Cart__content__list__choose__btn{
+   cursor: pointer;
+    padding: 2px 12px;
+  }
+  .Cart__content__list__choose p{
+    font-size: 16px;
+    margin: 0;
+  }
+  .Cart__content__list__choose {
+    display: flex;
+    align-items: center;
+  }
+  .Cart__content__list__buy{
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+  .Cart__content__list__buy__price{
+    font-size: 16px;
+    color: #d70018;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Cart__content__list__buy__btn1{
+    font-size:  16px;
+    padding: 18px 16px;
+    margin-bottom: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #d70018;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #d70018;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .Cart__content__list__buy__btn2{
+    font-size:  16px;
+    padding: 18px 16px;
+    margin-bottom: 8px;
+    color: #d70018;
+    text-transform: uppercase;
+    background-color: #fff;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #d70018;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .Cart__content__list__buy__btn2:hover{
+    background-color: #dc3545;
+    color: #fff;
+    transition: all linear 0.2s;
+  }
+  .Cart__content__list__detail i {
+    font-size: 16px;
+    color: #ccc;
+    cursor: pointer;
+    float: right;
+  }
+  .Cart__content__list__detail h3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .btndeleteCard{
+    border:  none;
+    background-color: #fff;
+    padding: 2px;
+  }
+  .btndeleteCard i:hover{
+    color: #d70018 !important;
+  }

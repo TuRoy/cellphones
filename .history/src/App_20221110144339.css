@@ -1,0 +1,10 @@
+* {
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: "SegoeUI", sans-serif;
+}
+
+.components__card, .components__homecontent  , .component__productdetail, .components__paymentinfo,.component__banner{
+  padding: 100px 0px;
+}

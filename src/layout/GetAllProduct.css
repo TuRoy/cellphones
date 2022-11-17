@@ -1,0 +1,95 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+/* .GetAllProduct{
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+.GetAllProduct__content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.home__content__list2__cart{
+    justify-content: space-evenly;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.GetAllProduct__content__slider  .home__content__list{
+    background: linear-gradient(rgb(241, 50, 55), rgb(248, 207, 214));
+    padding: 20px 0 20px 0;
+}
+.GetAllProduct__content__slider__option{
+    margin-top: 20px;
+}
+.GetAllProduct__content__slider__option1{
+    margin-top: 50px;
+}
+.GetAllProduct__content__img{
+    padding: 64px 0px 0 0 ;
+}
+.GetAllProduct__content__slider__option button{
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+      font-size: 12px;
+      cursor: pointer;
+      padding: 5px 10px;
+      background-color: #f3f4f6;
+      color: #444;
+      margin-right: 16px;
+}
+.GetAllProduct__content__slider__option p{
+    margin-left: 4px;
+    display: inline-block;
+}
+.active__option {
+    transform: scale(1.1);
+    color: #d70018 !important;
+    border: 1px solid #d70018 !important;
+    background: #fef2f2 !important;
+}
+.GetAllProduct__content__slider__option h2{
+    color: #4a4a4a;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
+
+
+
+
+.GetAllProduct__content__slider__option1 button{
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+      font-size: 13px;
+      cursor: pointer;
+      padding: 5px 10px;
+      background-color: #f3f4f6;
+      color: #444;
+      margin-right: 16px;
+}
+.GetAllProduct__content__slider__option1 p{
+    margin-left: 4px;
+    display: inline-block;
+}
+.GetAllProduct__content__slider__option1 h2{
+    color: #4a4a4a;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
+
+
+.block__img__slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.GetAllProduct__content__img img{
+    width: 100%;
+}

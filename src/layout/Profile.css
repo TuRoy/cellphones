@@ -1,0 +1,109 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: "SegoeUI", sans-serif;
+  }
+
+.Profile{
+    padding: 100px 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.Profile__content{
+    margin: 0 auto; 
+    max-width: 1200px;
+    height: calc(100vh - 100px);
+}
+.Profile__content__left , .Profile__content__right{
+    background-color: #fff;
+    border-radius: 15px;
+    height: 100%;
+}
+.Profile__content__left{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+   padding: 20px 10px 10px 30px;
+    width: 20%;
+}
+.Profile__content__right{
+    width: 78%;
+}
+.Profile__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Profile__content__left__btn{
+    width: 100%;
+    border: 0.5px solid #e11b1e;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #686868;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border-bottom-right-radius: unset;
+    border-top-left-radius: unset;
+}
+.Profile__content__left__btn:hover{
+    background-color: #fee;
+    color: #fd2424;
+}
+.Profile__target{
+    background-color: #fee;
+    color: #fd2424;
+}
+.Profile__content__right__password, .Profile__content__right__avater{
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    padding: 20px;
+}
+.Profile__content__right__password__input{
+    margin-top: 20px;
+}
+.Profile__content__right__password__input input{
+    padding: 8px 16px;
+    width: 300px;
+    border-radius: 10px;
+    border: 0.5px solid #e11b1e;
+    outline: #ffffff;
+}
+.Profile__content__right__password__input p{
+    font-size: 15px;
+    cursor: pointer;
+    color: #2c2c2c;
+}
+.Profile__content__right__password__input input::placeholder{
+    opacity: 0.5;
+    border-bottom: 1px solid #2c2c2c;
+}
+.Profile__content__right__password__btn{
+    font-weight: 600;
+    width: 300px;
+    margin-top: 20px;
+    border: unset;
+    background-color: #fee;
+    padding: 6px 16px;
+    font-size: 15px;
+    color: #e11b1e;
+    border-radius: 10px;
+    border: 0.5px solid #e11b1e;
+
+}
+.Profile__content__right__password__btn:hover{
+    background-color: #fd2424;
+    color: #fff;
+    border: 0.5px solid #3e3e3e;
+
+}
+.Profile__content__right__avater img{
+    width: 100%;
+}

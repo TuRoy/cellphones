@@ -1,0 +1,101 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: "SegoeUI", sans-serif;
+  }
+
+.found {
+    font-weight: bolder;
+    font-size: 17px;
+}
+span {
+    font-weight: bolder;
+}
+.img-payment img {
+    border: 1px solid rgb(222,226,230);
+    width: 48px; 
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.img-payment {
+    width: 100%;
+}
+.upper {
+    border-top:1px solid rgb(194, 184, 184) ;
+    width: 100%;
+    display: flex;
+    padding: 20px 150px;
+    background-color: white;
+}
+.lower {
+    padding: 20px 150px;
+}
+.upper .one {
+    width: 24%;
+    margin:0 auto;
+}
+.lower  {
+    background-color: rgb(248,248,248);
+}
+.certification {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contai {
+    display: flex;
+    width: 100%;
+}
+.contai .lower-one{
+    width: 24%;
+    margin: 0 auto;
+}
+.text-end {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.text-end p{
+    font-size: 7px;
+    opacity: 0.5;
+}
+.certification img {
+    margin: auto;
+}
+.footer__container p {
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+.insurance {
+    background-color: rgb(215,0,24);
+    border-radius: 10px;
+}
+.insurance .phone {
+    padding: 3px;
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.phone p {
+    font-weight: 100;
+}
+.phone .wei {
+    font-weight: bolder;
+}
+.insurance-apple{
+    border-radius: 10px;
+    background-color: rgb(51,65,104);
+    margin-top: 10px;
+}
+.insurance-apple .apple{
+    padding: 12px;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.lower p {
+    font-size: 10px;
+}
