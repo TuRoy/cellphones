@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cellphones/static/css/main.6b60089c.css",
+    "main.js": "/cellphones/static/js/main.d1c12e86.js",
+    "static/js/787.a36da101.chunk.js": "/cellphones/static/js/787.a36da101.chunk.js",
+    "index.html": "/cellphones/index.html",
+    "main.6b60089c.css.map": "/cellphones/static/css/main.6b60089c.css.map",
+    "main.d1c12e86.js.map": "/cellphones/static/js/main.d1c12e86.js.map",
+    "787.a36da101.chunk.js.map": "/cellphones/static/js/787.a36da101.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b60089c.css",
+    "static/js/main.d1c12e86.js"
+  ]
+}
